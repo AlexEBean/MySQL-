@@ -1,5 +1,7 @@
 -- Source: https://www.mysqltutorial.org/mysql-delete-duplicate-rows/
 
+DROP TABLE IF EXISTS contacts;
+
 CREATE TABLE contacts (
     id INT PRIMARY KEY AUTO_INCREMENT,
     first_name VARCHAR(50) NOT NULL,
