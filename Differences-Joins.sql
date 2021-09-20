@@ -1,0 +1,6 @@
+-- (INNER) JOIN: Returns records that have matching values in both tables
+-- LEFT (OUTER) JOIN: Returns all records from the left table, and the matched records from the right table
+-- RIGHT (OUTER) JOIN: Returns all records from the right table, and the matched records from the left table
+-- FULL (OUTER) JOIN: Returns all records when there is a match in either left or right table
+-- CROSS JOIN: Returns every combination of all records. It doesn't use a match.
+-- SELF JOIN: Joins a table with itself.  It's useful when you need to compare two rows in the same table.  For example, comparing one order to the order that follows after it.
